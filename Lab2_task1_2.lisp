@@ -8,13 +8,13 @@
 )
 (defun input ()
     (print "Исходный список:")
-    (print LIST)
+    (print L)
     (print "Введите место удаления:") 
     (set 'P (read))
     (print "Итоговый список:") 
-    (set 'LIST(DEL P LIST )) 
+    (set 'L(DEL P L )) 
    
     
 )
-(set 'LIST '(11 8 19 55 1 3 2 1))
+(set 'L '(11 8 19 55 1 3 2 1))
 (input)
